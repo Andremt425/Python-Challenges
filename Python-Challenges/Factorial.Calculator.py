@@ -1,4 +1,13 @@
 def FactorialCalculator(n):
+    """
+    Calculate the factorial of the number n.
+    
+    Args:
+    n (int): The number to check.
+    
+    Returns:
+    int: Calculated factorial value.
+    """
     if n < 0:
         return "Factorial is not defined for negative numbers"
     elif n == 0 or n == 1:
